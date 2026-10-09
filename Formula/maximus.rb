@@ -1,25 +1,25 @@
 class Maximus < Formula
   desc "A keyboard-first TUI for running Claude Code sessions across many projects"
   homepage "https://github.com/tdlm/maximus"
-  version "0.6.0"
+  version "0.7.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/tdlm/maximus/releases/download/v0.6.0/maximus-aarch64-apple-darwin.tar.xz"
-      sha256 "822e087d7a78957ba9e1dbad04abc44f17c5714036a6aec0a26d53b051b15152"
+      url "https://github.com/tdlm/maximus/releases/download/v0.7.0/maximus-aarch64-apple-darwin.tar.xz"
+      sha256 "818a57037ae3eadc30e918338b87bb4652723fdb90e955a70a269906cea2ebb7"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/tdlm/maximus/releases/download/v0.6.0/maximus-x86_64-apple-darwin.tar.xz"
-      sha256 "02c8b22e8d26476e71ba33951e646d4045df85cbb93e8e6f12834add70c6efee"
+      url "https://github.com/tdlm/maximus/releases/download/v0.7.0/maximus-x86_64-apple-darwin.tar.xz"
+      sha256 "0aa851ae32ddc7236aefa7b1e9823502126b69530d820dec6a3e081a10b58cab"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/tdlm/maximus/releases/download/v0.6.0/maximus-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "ad1e07b991f5cb5c8a4240efb18bdc5f8e1b2b09b4dc1b423e1c743ce0c1c94c"
+      url "https://github.com/tdlm/maximus/releases/download/v0.7.0/maximus-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "49326ce0d2560fdbae72207fd66ddfc563e5cce35c410b2d8a6f9ec7a14e09ee"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/tdlm/maximus/releases/download/v0.6.0/maximus-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "600b436a5c98bf237dfe870f1fa7dc62bc1a6b4a7984f7d2d0a40e416c6de8cf"
+      url "https://github.com/tdlm/maximus/releases/download/v0.7.0/maximus-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "21ba1aad378eaadf9f8a2bf97e57573afef689b39329b284b6b6d1244214910f"
     end
   end
 
